@@ -1,0 +1,2 @@
+cc -c clib.c -o clib.o
+gcc -shared clib.o -o clib.so
